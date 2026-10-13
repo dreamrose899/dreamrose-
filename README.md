@@ -22,26 +22,11 @@ Open-source Scrypt coin forked from Dogecoin Core, with merged mining (AuxPoW) s
 
 All addresses will be published before mainnet.
 
-## Build
-```
-./autogen.sh
-./configure --without-gui
-make -j$(nproc)
-```
-
-## Run (testnet)
-```
-./src/dreamrosed -testnet -daemon
-```
-
 ## For pool operators
 Uses the same `getauxblock` RPC as Dogecoin. Feedback wanted on multi-output coinbase, percentages and block time.
 
 ## Roadmap
 Genesis block, reward code and tests, public testnet, pool feedback, security review, mainnet.
-
-## Contributing
-Pull requests welcome. Keep consensus changes in separate commits.
 
 ## License
 MIT, same as Dogecoin Core.
